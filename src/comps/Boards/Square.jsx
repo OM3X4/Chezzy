@@ -46,7 +46,7 @@ function Square({ dark, number, lay, click, avail , selected , ischeck , ischeck
         onClick={e => click(number)}>
         
 
-        <span className={`absolute top-0 left-0 p-1 text-[100%] font-mono font-bold ${dark ? "text-light": "text-dark"}`}>{number}</span>
+        <span className={`absolute top-0 left-0 p-1 text-[80%] md:text-[100%] font-mono font-bold ${dark ? "text-light": "text-dark"}`}>{number}</span>
         
 
             <div>
